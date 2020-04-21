@@ -14,8 +14,8 @@ eureka:
     hostname: eureka6001.com
   client:
     registerWithEureka: false
-	fetchRegistry: false
-	serviceUrl:
+    fetchRegistry: false
+    serviceUrl:
       defaultZone: http://eureka6002.com:6002/eureka/
   server:
     enable-self-preservation: false
@@ -33,8 +33,8 @@ eureka:
     hostname: eureka6001.com
   client:
     registerWithEureka: false
-	fetchRegister: false
-	serviceUrl:
-	  defaultZone: http://eureka6002.com:6002/eureka/
+    fetchRegister: false
+    serviceUrl:
+      defaultZone: http://eureka6002.com:6002/eureka/
   server:
     enable-self-preservation: true
